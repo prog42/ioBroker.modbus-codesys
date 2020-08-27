@@ -3,7 +3,7 @@
 <CoDeSysSymbolTable>
 	<SymbolHeader>
 		<Version>-1</Version>
-		<ProjectId>346121</ProjectId>
+		<ProjectId>436014</ProjectId>
 		<WorkbenchVersion>2.3.9.55</WorkbenchVersion>
 		<CompilerVersion>2.3.9.55</CompilerVersion>
 	</SymbolHeader>
@@ -66,7 +66,6 @@
 		</TypeUserdef>
 	</SymbolTypeList>
 	<SymbolVarList>
-		<Var Type="15" Flags="301989920" Access="98" RefId="2" Offset="512" TopLevelType="15">.iob_read</Var>
 		<Var Type="0" Flags="3" Access="98" RefId="2" Offset="512" TopLevelType="15">.iob_read.a_rd_BYTE</Var>
 		<Var Type="1" Flags="3" Access="98" RefId="2" Offset="514" TopLevelType="15">.iob_read.b_rd_WORD</Var>
 		<Var Type="2" Flags="3" Access="98" RefId="2" Offset="516" TopLevelType="15">.iob_read.c_rd_DWORD</Var>
@@ -81,13 +80,11 @@
 		<Var Type="11" Flags="3" Access="98" RefId="2" Offset="628" TopLevelType="15">.iob_read.l_rd_TOD</Var>
 		<Var Type="12" Flags="3" Access="98" RefId="2" Offset="632" TopLevelType="15">.iob_read.m_rd_DATE</Var>
 		<Var Type="13" Flags="3" Access="98" RefId="2" Offset="636" TopLevelType="15">.iob_read.n_rd_DT</Var>
-		<Var Type="14" Flags="3" Access="98" RefId="2" Offset="640" TopLevelType="15">.iob_read.o_rd_ARRAY_INT</Var>
 		<Var Type="4" Flags="3" Access="98" RefId="2" Offset="640" TopLevelType="15">.iob_read.o_rd_ARRAY_INT[0]</Var>
 		<Var Type="4" Flags="3" Access="98" RefId="2" Offset="642" TopLevelType="15">.iob_read.o_rd_ARRAY_INT[1]</Var>
 		<Var Type="4" Flags="3" Access="98" RefId="2" Offset="644" TopLevelType="15">.iob_read.o_rd_ARRAY_INT[2]</Var>
 		<Var Type="4" Flags="3" Access="98" RefId="2" Offset="646" TopLevelType="15">.iob_read.o_rd_ARRAY_INT[3]</Var>
 		<Var Type="4" Flags="3" Access="98" RefId="2" Offset="648" TopLevelType="15">.iob_read.o_rd_ARRAY_INT[4]</Var>
-		<Var Type="16" Flags="301989920" Access="98" RefId="0" Offset="256" TopLevelType="16">.iob_write</Var>
 		<Var Type="0" Flags="3" Access="98" RefId="0" Offset="256" TopLevelType="16">.iob_write.a_wr_BYTE</Var>
 		<Var Type="1" Flags="3" Access="98" RefId="0" Offset="258" TopLevelType="16">.iob_write.b_wr_WORD</Var>
 		<Var Type="2" Flags="3" Access="98" RefId="0" Offset="260" TopLevelType="16">.iob_write.c_wr_DWORD</Var>
@@ -102,7 +99,6 @@
 		<Var Type="11" Flags="3" Access="98" RefId="0" Offset="372" TopLevelType="16">.iob_write.l_wr_TOD</Var>
 		<Var Type="12" Flags="3" Access="98" RefId="0" Offset="376" TopLevelType="16">.iob_write.m_wr_DATE</Var>
 		<Var Type="13" Flags="3" Access="98" RefId="0" Offset="380" TopLevelType="16">.iob_write.n_wr_DT</Var>
-		<Var Type="14" Flags="3" Access="98" RefId="0" Offset="384" TopLevelType="16">.iob_write.o_wr_ARRAY_INT</Var>
 		<Var Type="4" Flags="3" Access="98" RefId="0" Offset="384" TopLevelType="16">.iob_write.o_wr_ARRAY_INT[0]</Var>
 		<Var Type="4" Flags="3" Access="98" RefId="0" Offset="386" TopLevelType="16">.iob_write.o_wr_ARRAY_INT[1]</Var>
 		<Var Type="4" Flags="3" Access="98" RefId="0" Offset="388" TopLevelType="16">.iob_write.o_wr_ARRAY_INT[2]</Var>
