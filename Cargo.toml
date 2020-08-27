@@ -1,0 +1,20 @@
+[package]
+name = "ioBroker-modbus-codesys-convert"
+license = "MIT"
+version = "0.2.0"
+authors = ["prog42 <b.code@amb30.de>"]
+
+[package.metadata.deb]
+assets = [
+  ["target/release/ioBroker-modbus-codesys-convert", "usr/bin/", "755"],
+  ["src/ioBroker-modbus-codesys-convert-latest.sh", "/usr/bin/", "755"]
+]
+
+[dependencies]
+xmltree = "0.7"
+csv = "1"
+serde = "1"
+serde_derive = "1"
+colored = "1.7"
+regex = "1"
+clap = "2"
