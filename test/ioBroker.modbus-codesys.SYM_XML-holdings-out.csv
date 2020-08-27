@@ -1,0 +1,20 @@
+address	name	description	unit	type	len	factor	offset	role	room	poll	wp
+12416	iob_write.a_wr_BYTE	iob_write.a_wr_BYTE		uint8be	1	1	0	state		true	false
+12417	iob_write.b_wr_WORD	iob_write.b_wr_WORD		uint16be	1	1	0	state		true	false
+12418	iob_write.c_wr_DWORD	iob_write.c_wr_DWORD		uint32sw	2	1	0	state		true	false
+12420	iob_write.d_wr_SINT	iob_write.d_wr_SINT		int8be	1	1	0	state		true	false
+12421	iob_write.e_wr_INT	iob_write.e_wr_INT		int16be	1	1	0	state		true	false
+12422	iob_write.f_wr_UINT	iob_write.f_wr_UINT		uint16be	1	1	0	state		true	false
+12424	iob_write.g_wr_DINT	iob_write.g_wr_DINT		int32sw	2	1	0	state		true	false
+12426	iob_write.h_wr_UDINT	iob_write.h_wr_UDINT		uint32sw	2	1	0	state		true	false
+12428	iob_write.i_wr_REAL	iob_write.i_wr_REAL		floatsw	2	1	0	state		true	false
+12430	iob_write.j_wr_STRING	iob_write.j_wr_STRING		stringle	81	1	0	state		true	false
+12472	iob_write.k_wr_TIME	iob_write.k_wr_TIME		uint32sw	2	1	0	state		true	false
+12474	iob_write.l_wr_TOD	iob_write.l_wr_TOD		uint32sw	2	1	0	state		true	false
+12476	iob_write.m_wr_DATE	iob_write.m_wr_DATE		uint32sw	2	1	0	state		true	false
+12478	iob_write.n_wr_DT	iob_write.n_wr_DT		uint32sw	2	1	0	state		true	false
+12480	iob_write.o_wr_ARRAY_INT.0	iob_write.o_wr_ARRAY_INT[0]		int16be	1	1	0	state		true	false
+12481	iob_write.o_wr_ARRAY_INT.1	iob_write.o_wr_ARRAY_INT[1]		int16be	1	1	0	state		true	false
+12482	iob_write.o_wr_ARRAY_INT.2	iob_write.o_wr_ARRAY_INT[2]		int16be	1	1	0	state		true	false
+12483	iob_write.o_wr_ARRAY_INT.3	iob_write.o_wr_ARRAY_INT[3]		int16be	1	1	0	state		true	false
+12484	iob_write.o_wr_ARRAY_INT.4	iob_write.o_wr_ARRAY_INT[4]		int16be	1	1	0	state		true	false

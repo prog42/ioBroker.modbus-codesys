@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<CoDeSysSymbolTable>
+	<SymbolHeader>
+		<Version>-1</Version>
+		<ProjectId>346121</ProjectId>
+		<WorkbenchVersion>2.3.9.55</WorkbenchVersion>
+		<CompilerVersion>2.3.9.55</CompilerVersion>
+	</SymbolHeader>
+	<SymbolTypeList>
+		<TypeSimple TypeId="0" Size="1">BYTE</TypeSimple>
+		<TypeSimple TypeId="1" Size="2">WORD</TypeSimple>
+		<TypeSimple TypeId="2" Size="4">DWORD</TypeSimple>
+		<TypeSimple TypeId="3" Size="1">SINT</TypeSimple>
+		<TypeSimple TypeId="4" Size="2">INT</TypeSimple>
+		<TypeSimple TypeId="5" Size="2">UINT</TypeSimple>
+		<TypeSimple TypeId="6" Size="4">DINT</TypeSimple>
+		<TypeSimple TypeId="7" Size="4">UDINT</TypeSimple>
+		<TypeSimple TypeId="8" Size="4">REAL</TypeSimple>
+		<TypeString TypeId="9" Size="81"/>
+		<TypeSimple TypeId="10" Size="4">TIME</TypeSimple>
+		<TypeSimple TypeId="11" Size="4">TOD</TypeSimple>
+		<TypeSimple TypeId="12" Size="4">DATE</TypeSimple>
+		<TypeSimple TypeId="13" Size="4">DT</TypeSimple>
+		<TypeArray TypeId="14" Size="10">
+			<Dimension Lower="0" Upper="4"/>
+			<BaseType>
+				<TypeSimple Size="2">INT</TypeSimple>
+			</BaseType>
+		</TypeArray>
+		<TypeUserdef TypeId="15" Size="140">
+			<Name>IOB_READ_T</Name>
+			<Var Type="0" Flags="259" Access="114" RefId="36" Offset="0">a_rd_BYTE</Var>
+			<Var Type="1" Flags="259" Access="114" RefId="36" Offset="2">b_rd_WORD</Var>
+			<Var Type="2" Flags="259" Access="114" RefId="36" Offset="4">c_rd_DWORD</Var>
+			<Var Type="3" Flags="259" Access="114" RefId="36" Offset="8">d_rd_SINT</Var>
+			<Var Type="4" Flags="259" Access="114" RefId="36" Offset="10">e_rd_INT</Var>
+			<Var Type="5" Flags="259" Access="114" RefId="36" Offset="12">f_rd_UINT</Var>
+			<Var Type="6" Flags="259" Access="114" RefId="36" Offset="16">g_rd_DINT</Var>
+			<Var Type="7" Flags="259" Access="114" RefId="36" Offset="20">h_rd_UDINT</Var>
+			<Var Type="8" Flags="259" Access="114" RefId="36" Offset="24">i_rd_REAL</Var>
+			<Var Type="9" Flags="259" Access="114" RefId="36" Offset="28">j_rd_STRING</Var>
+			<Var Type="10" Flags="259" Access="114" RefId="36" Offset="112">k_rd_TIME</Var>
+			<Var Type="11" Flags="259" Access="114" RefId="36" Offset="116">l_rd_TOD</Var>
+			<Var Type="12" Flags="259" Access="114" RefId="36" Offset="120">m_rd_DATE</Var>
+			<Var Type="13" Flags="259" Access="114" RefId="36" Offset="124">n_rd_DT</Var>
+			<Var Type="14" Flags="259" Access="114" RefId="36" Offset="128">o_rd_ARRAY_INT</Var>
+		</TypeUserdef>
+		<TypeUserdef TypeId="16" Size="140">
+			<Name>IOB_WRITE_T</Name>
+			<Var Type="0" Flags="259" Access="114" RefId="37" Offset="0">a_wr_BYTE</Var>
+			<Var Type="1" Flags="259" Access="114" RefId="37" Offset="2">b_wr_WORD</Var>
+			<Var Type="2" Flags="259" Access="114" RefId="37" Offset="4">c_wr_DWORD</Var>
+			<Var Type="3" Flags="259" Access="114" RefId="37" Offset="8">d_wr_SINT</Var>
+			<Var Type="4" Flags="259" Access="114" RefId="37" Offset="10">e_wr_INT</Var>
+			<Var Type="5" Flags="259" Access="114" RefId="37" Offset="12">f_wr_UINT</Var>
+			<Var Type="6" Flags="259" Access="114" RefId="37" Offset="16">g_wr_DINT</Var>
+			<Var Type="7" Flags="259" Access="114" RefId="37" Offset="20">h_wr_UDINT</Var>
+			<Var Type="8" Flags="259" Access="114" RefId="37" Offset="24">i_wr_REAL</Var>
+			<Var Type="9" Flags="259" Access="114" RefId="37" Offset="28">j_wr_STRING</Var>
+			<Var Type="10" Flags="259" Access="114" RefId="37" Offset="112">k_wr_TIME</Var>
+			<Var Type="11" Flags="259" Access="114" RefId="37" Offset="116">l_wr_TOD</Var>
+			<Var Type="12" Flags="259" Access="114" RefId="37" Offset="120">m_wr_DATE</Var>
+			<Var Type="13" Flags="259" Access="114" RefId="37" Offset="124">n_wr_DT</Var>
+			<Var Type="14" Flags="259" Access="114" RefId="37" Offset="128">o_wr_ARRAY_INT</Var>
+		</TypeUserdef>
+	</SymbolTypeList>
+	<SymbolVarList>
+		<Var Type="15" Flags="301989920" Access="98" RefId="2" Offset="512" TopLevelType="15">.iob_read</Var>
+		<Var Type="0" Flags="3" Access="98" RefId="2" Offset="512" TopLevelType="15">.iob_read.a_rd_BYTE</Var>
+		<Var Type="1" Flags="3" Access="98" RefId="2" Offset="514" TopLevelType="15">.iob_read.b_rd_WORD</Var>
+		<Var Type="2" Flags="3" Access="98" RefId="2" Offset="516" TopLevelType="15">.iob_read.c_rd_DWORD</Var>
+		<Var Type="3" Flags="3" Access="98" RefId="2" Offset="520" TopLevelType="15">.iob_read.d_rd_SINT</Var>
+		<Var Type="4" Flags="3" Access="98" RefId="2" Offset="522" TopLevelType="15">.iob_read.e_rd_INT</Var>
+		<Var Type="5" Flags="3" Access="98" RefId="2" Offset="524" TopLevelType="15">.iob_read.f_rd_UINT</Var>
+		<Var Type="6" Flags="3" Access="98" RefId="2" Offset="528" TopLevelType="15">.iob_read.g_rd_DINT</Var>
+		<Var Type="7" Flags="3" Access="98" RefId="2" Offset="532" TopLevelType="15">.iob_read.h_rd_UDINT</Var>
+		<Var Type="8" Flags="3" Access="98" RefId="2" Offset="536" TopLevelType="15">.iob_read.i_rd_REAL</Var>
+		<Var Type="9" Flags="3" Access="98" RefId="2" Offset="540" TopLevelType="15">.iob_read.j_rd_STRING</Var>
+		<Var Type="10" Flags="3" Access="98" RefId="2" Offset="624" TopLevelType="15">.iob_read.k_rd_TIME</Var>
+		<Var Type="11" Flags="3" Access="98" RefId="2" Offset="628" TopLevelType="15">.iob_read.l_rd_TOD</Var>
+		<Var Type="12" Flags="3" Access="98" RefId="2" Offset="632" TopLevelType="15">.iob_read.m_rd_DATE</Var>
+		<Var Type="13" Flags="3" Access="98" RefId="2" Offset="636" TopLevelType="15">.iob_read.n_rd_DT</Var>
+		<Var Type="14" Flags="3" Access="98" RefId="2" Offset="640" TopLevelType="15">.iob_read.o_rd_ARRAY_INT</Var>
+		<Var Type="4" Flags="3" Access="98" RefId="2" Offset="640" TopLevelType="15">.iob_read.o_rd_ARRAY_INT[0]</Var>
+		<Var Type="4" Flags="3" Access="98" RefId="2" Offset="642" TopLevelType="15">.iob_read.o_rd_ARRAY_INT[1]</Var>
+		<Var Type="4" Flags="3" Access="98" RefId="2" Offset="644" TopLevelType="15">.iob_read.o_rd_ARRAY_INT[2]</Var>
+		<Var Type="4" Flags="3" Access="98" RefId="2" Offset="646" TopLevelType="15">.iob_read.o_rd_ARRAY_INT[3]</Var>
+		<Var Type="4" Flags="3" Access="98" RefId="2" Offset="648" TopLevelType="15">.iob_read.o_rd_ARRAY_INT[4]</Var>
+		<Var Type="16" Flags="301989920" Access="98" RefId="0" Offset="256" TopLevelType="16">.iob_write</Var>
+		<Var Type="0" Flags="3" Access="98" RefId="0" Offset="256" TopLevelType="16">.iob_write.a_wr_BYTE</Var>
+		<Var Type="1" Flags="3" Access="98" RefId="0" Offset="258" TopLevelType="16">.iob_write.b_wr_WORD</Var>
+		<Var Type="2" Flags="3" Access="98" RefId="0" Offset="260" TopLevelType="16">.iob_write.c_wr_DWORD</Var>
+		<Var Type="3" Flags="3" Access="98" RefId="0" Offset="264" TopLevelType="16">.iob_write.d_wr_SINT</Var>
+		<Var Type="4" Flags="3" Access="98" RefId="0" Offset="266" TopLevelType="16">.iob_write.e_wr_INT</Var>
+		<Var Type="5" Flags="3" Access="98" RefId="0" Offset="268" TopLevelType="16">.iob_write.f_wr_UINT</Var>
+		<Var Type="6" Flags="3" Access="98" RefId="0" Offset="272" TopLevelType="16">.iob_write.g_wr_DINT</Var>
+		<Var Type="7" Flags="3" Access="98" RefId="0" Offset="276" TopLevelType="16">.iob_write.h_wr_UDINT</Var>
+		<Var Type="8" Flags="3" Access="98" RefId="0" Offset="280" TopLevelType="16">.iob_write.i_wr_REAL</Var>
+		<Var Type="9" Flags="3" Access="98" RefId="0" Offset="284" TopLevelType="16">.iob_write.j_wr_STRING</Var>
+		<Var Type="10" Flags="3" Access="98" RefId="0" Offset="368" TopLevelType="16">.iob_write.k_wr_TIME</Var>
+		<Var Type="11" Flags="3" Access="98" RefId="0" Offset="372" TopLevelType="16">.iob_write.l_wr_TOD</Var>
+		<Var Type="12" Flags="3" Access="98" RefId="0" Offset="376" TopLevelType="16">.iob_write.m_wr_DATE</Var>
+		<Var Type="13" Flags="3" Access="98" RefId="0" Offset="380" TopLevelType="16">.iob_write.n_wr_DT</Var>
+		<Var Type="14" Flags="3" Access="98" RefId="0" Offset="384" TopLevelType="16">.iob_write.o_wr_ARRAY_INT</Var>
+		<Var Type="4" Flags="3" Access="98" RefId="0" Offset="384" TopLevelType="16">.iob_write.o_wr_ARRAY_INT[0]</Var>
+		<Var Type="4" Flags="3" Access="98" RefId="0" Offset="386" TopLevelType="16">.iob_write.o_wr_ARRAY_INT[1]</Var>
+		<Var Type="4" Flags="3" Access="98" RefId="0" Offset="388" TopLevelType="16">.iob_write.o_wr_ARRAY_INT[2]</Var>
+		<Var Type="4" Flags="3" Access="98" RefId="0" Offset="390" TopLevelType="16">.iob_write.o_wr_ARRAY_INT[3]</Var>
+		<Var Type="4" Flags="3" Access="98" RefId="0" Offset="392" TopLevelType="16">.iob_write.o_wr_ARRAY_INT[4]</Var>
+		<Var Type="8" Flags="33554500" Access="98" RefId="4" Offset="148">.rVersion</Var>
+	</SymbolVarList>
+	<SymbolTaskList/>
+	<SymbolTargetSettings>
+		<MaxNumberOfPOUs>1023</MaxNumberOfPOUs>
+		<Segments>
+			<Segment Area="-1" RefId="0" Address="536870912" Size="16384" Attributes="0"/>
+			<Segment Area="-1" RefId="1" Address="684190720" Size="3064" Attributes="0"/>
+			<Segment Area="-1" RefId="2" Address="684185600" Size="3064" Attributes="0"/>
+			<Segment Area="-1" RefId="3" Address="536887296" Size="16384" Attributes="2"/>
+			<Segment Area="0" RefId="4" Address="0" Size="1036288" Attributes="1"/>
+		</Segments>
+	</SymbolTargetSettings>
+</CoDeSysSymbolTable>

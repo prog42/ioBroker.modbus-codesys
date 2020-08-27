@@ -1,0 +1,20 @@
+address	name	description	unit	type	len	factor	offset	role	room
+256	iob_read.a_rd_BYTE	iob_read.a_rd_BYTE		uint8be	1	1	0	state	
+257	iob_read.b_rd_WORD	iob_read.b_rd_WORD		uint16be	1	1	0	state	
+258	iob_read.c_rd_DWORD	iob_read.c_rd_DWORD		uint32sw	2	1	0	state	
+260	iob_read.d_rd_SINT	iob_read.d_rd_SINT		int8be	1	1	0	state	
+261	iob_read.e_rd_INT	iob_read.e_rd_INT		int16be	1	1	0	state	
+262	iob_read.f_rd_UINT	iob_read.f_rd_UINT		uint16be	1	1	0	state	
+264	iob_read.g_rd_DINT	iob_read.g_rd_DINT		int32sw	2	1	0	state	
+266	iob_read.h_rd_UDINT	iob_read.h_rd_UDINT		uint32sw	2	1	0	state	
+268	iob_read.i_rd_REAL	iob_read.i_rd_REAL		floatsw	2	1	0	state	
+270	iob_read.j_rd_STRING	iob_read.j_rd_STRING		stringle	81	1	0	state	
+312	iob_read.k_rd_TIME	iob_read.k_rd_TIME		uint32sw	2	1	0	state	
+314	iob_read.l_rd_TOD	iob_read.l_rd_TOD		uint32sw	2	1	0	state	
+316	iob_read.m_rd_DATE	iob_read.m_rd_DATE		uint32sw	2	1	0	state	
+318	iob_read.n_rd_DT	iob_read.n_rd_DT		uint32sw	2	1	0	state	
+320	iob_read.o_rd_ARRAY_INT.0	iob_read.o_rd_ARRAY_INT[0]		int16be	1	1	0	state	
+321	iob_read.o_rd_ARRAY_INT.1	iob_read.o_rd_ARRAY_INT[1]		int16be	1	1	0	state	
+322	iob_read.o_rd_ARRAY_INT.2	iob_read.o_rd_ARRAY_INT[2]		int16be	1	1	0	state	
+323	iob_read.o_rd_ARRAY_INT.3	iob_read.o_rd_ARRAY_INT[3]		int16be	1	1	0	state	
+324	iob_read.o_rd_ARRAY_INT.4	iob_read.o_rd_ARRAY_INT[4]		int16be	1	1	0	state	
