@@ -10,6 +10,12 @@ Build Debian package
 ```sh
 cargo deb
 ```
+## export symbols from Codesys project
+Projekt > Optionen
+
+![export symbols from Codesys project](/doc/codesys-export-symbols.png?raw=true "export symbols from Codesys project")
+
+
 ## run test
 ```sh
 cargo build
