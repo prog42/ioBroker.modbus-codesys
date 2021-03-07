@@ -147,6 +147,13 @@ fn main() {
         .required(false)
         .takes_value(true))
 
+      .arg(clap::Arg::with_name("exclude")
+        .short("E")
+        .long("exclude regex")
+        .value_name("")
+        .required(false)
+        .takes_value(true))
+
       .arg(clap::Arg::with_name("holdings")
         .short("H")
         .long("holdings")
@@ -168,9 +175,14 @@ fn main() {
     if cmd_line_matches.is_present("symbol-filter") {
       symbol_xml_filter_regex_str = cmd_line_matches.value_of("symbol-filter").unwrap();
     }
-
     let symbol_xml_filter_regex = regex::Regex::new(symbol_xml_filter_regex_str).unwrap();
-    
+
+    let mut symbol_xml_exclude_regex_str = "a^"; // always fails to match
+    if cmd_line_matches.is_present("exclude") {
+      symbol_xml_exclude_regex_str = cmd_line_matches.value_of("exclude").unwrap();
+    }
+    let symbol_xml_exclude_regex = regex::Regex::new(symbol_xml_exclude_regex_str).unwrap();
+
     let symbol_var_list: Element = read_symbol_xml(symbol_xml_filenme, &mut types_map);
 
     // import holdings csv file
@@ -200,14 +212,19 @@ fn main() {
             if !symbol_xml_filter_regex.is_match(&name) {
               continue;
             }
+            
+            if symbol_xml_exclude_regex.is_match(&name) {
+              continue;
+            }
+
             // remove dots at beginning
             name = replace_dot_regex.replace_all(&name, "").into_owned();
             let desciption = name.clone();
 
             // remove braces for name
-            name = replace_closing_brace_dot_regex.replace_all(&name, ".").into_owned();;
-            name = replace_closing_braces_regex.replace_all(&name, "").into_owned();;
-            name = replace_opening_braces_regex.replace_all(&name, ".").into_owned();;
+            name = replace_closing_brace_dot_regex.replace_all(&name, ".").into_owned();
+            name = replace_closing_braces_regex.replace_all(&name, "").into_owned();
+            name = replace_opening_braces_regex.replace_all(&name, ".").into_owned();
 
             if (id == MARKER_REF_ID) || (id == HOLDINGS_REF_ID) {
               let mut new_entry = CSVEntryHoldings { ..Default::default() };
@@ -352,6 +369,9 @@ fn get_modbus_length_type(type_attr: u32, types_map: & HashMap<u32, TypeNode>) -
       match typenode.type_ {
         Types::TypeSimple => {
           if typenode.name == "BYTE" {
+            type_ = String::from("uint8be");
+            length = 1;
+          } else if typenode.name == "BOOL" {
             type_ = String::from("uint8be");
             length = 1;
           } else if typenode.name == "WORD" {

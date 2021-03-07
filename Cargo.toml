@@ -1,8 +1,9 @@
 [package]
 name = "ioBroker-modbus-codesys-convert"
 license = "MIT"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["prog42 <b.code@amb30.de>"]
+readme = "README.md"
 
 [package.metadata.deb]
 assets = [
